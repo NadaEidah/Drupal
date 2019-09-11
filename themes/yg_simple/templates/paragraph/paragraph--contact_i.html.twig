@@ -1,0 +1,22 @@
+<!-- Contact Info-->
+<div class="fh5co-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<h2>{{ content.field_title.0 }}</h2>
+				{{ content.field_description.0 }}
+				{% if content.field_right_side_content %}
+		            {% autoescape 'html' %}
+		           	   {{ content.field_right_side_content|raw }}
+		            {% endautoescape %}
+		         {% endif %}
+				<p><a href="mailto:{{ content.field_twitter.0 }}">{{ content.field_twitter.0 }}</a></p>
+				<p><a href="#">{{ content.field_instagram.0 }}</a></p>
+			</div>
+			<div class="col-md-6 col-md-push-1">
+				{{ content.field_contact_form }}
+			</div>
+		</div>
+	</div>
+</div>
+{{ content.field_map }}

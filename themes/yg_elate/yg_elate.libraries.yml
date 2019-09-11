@@ -1,0 +1,28 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/animate.css: {}
+      css/simple-line-icons.css: {}
+      css/magnific-popup.css: {}
+      css/animate.css: {}
+      fonts/font-awesome/css/font-awesome.css: {} 
+      'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700': { type: external, minified: true }
+      'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css': { type: external, minified: true }
+  js:
+    js/main.js: {}
+    js/jquery.waypoints.min.js: {}
+    js/jquery.stellar.min.js: {}
+    js/jquery-migrate.js: {}
+    js/jquery.countTo.js: {}
+    js/jquery.style.switcher.js: {}
+    js/modernizr-2.6.2.min.js: {}      
+    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js': { type: external, minified: true }
+
+  dependencies:
+    - core/jquery 
+    - core/drupalSettings
+    - core/modernizr
+    - core/drupal
+
+

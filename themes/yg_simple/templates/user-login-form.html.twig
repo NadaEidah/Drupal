@@ -1,0 +1,41 @@
+<div class="fh5co-hero" style="background-image: url(/images/hero_3.jpg);" data-stellar-background-ratio="0.5">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
+        <div class="fh5co-intro fh5co-table-cell">
+          <h1 class="text-center">{{ page['#title'] }}</h1>
+          <p>{{ site_name }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="user-login">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-5 yg-business-login">                                  
+            <div class="login-text">                              
+                <h2 class="title" style="text-align:center;"><strong>USER LOGIN</strong></h2> 
+                <form role="form" id="sub-form">
+                    <div class="form-group">
+                     {{ form.name }}
+                    </div>
+                    <div class="form-group">
+                    {{ form.pass }}
+                    </div>
+                    <div class="form-group">
+                        <a href="{{ basepath }}/user/password" alt="Request new password via email">Forgot password?</a>
+                    </div>
+                    {{ form.form_build_id }}
+                    {{ form.form_id }}
+                    <div class="login-button">
+                        {{ form.actions }}
+                    </div>
+                </form>
+            </div>        
+        </div>                  
+    </div>
+  </div>
+</section>  

@@ -1,0 +1,40 @@
+name: 'YG Elate'
+description: 'theme for drupal maintenance'
+# core: 8.x
+type: theme
+base theme: classy
+package: 'Bootstrap'
+
+
+
+regions:
+  navigation: 'Navigation'
+  primary_menu: 'primary_menu'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  logo: 'logo'
+  slider: 'slider'
+  aboutus: 'aboutus'
+  abouticons: 'abouticons'
+  content: 'Content' 
+  sidebar_first: 'Primary'  
+  sidebar_second: 'Secondary'
+  portfolio: 'portfolio'
+  carousel: 'carousel'
+  blog: 'blog'
+  contact: 'contact'
+  map: 'map'
+  footer: 'footer'
+  footer_1: 'contact footer'
+  footer_2: 'service footer'
+  footer_3: 'social footer'
+
+libraries:
+- yg_elate/bootstrap
+- yg_elate/global-styling
+
+# Information added by Drupal.org packaging script on 2018-12-29
+version: '8.x-1.0'
+core: '8.x'
+project: 'yg_elate'
+datestamp: 1546072084
